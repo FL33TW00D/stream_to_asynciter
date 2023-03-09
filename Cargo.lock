@@ -199,6 +199,8 @@ name = "stream_to_asynciter"
 version = "0.1.0"
 dependencies = [
  "futures",
+ "futures-core",
+ "futures-util",
  "js-sys",
  "wasm-bindgen",
  "wasm-bindgen-futures",
